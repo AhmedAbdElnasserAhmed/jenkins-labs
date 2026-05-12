@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     # WHERE to run
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
     # STEP 1: Checkout code
     - uses: actions/checkout@v4
