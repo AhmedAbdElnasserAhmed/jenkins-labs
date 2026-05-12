@@ -1,10 +1,10 @@
 name: CI Pipeline
 # WHEN to run
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
+  # push:
+  #   branches: [main]
+  # pull_request:
+  #   branches: [main]
 # WHAT to run
 jobs:
   build:
