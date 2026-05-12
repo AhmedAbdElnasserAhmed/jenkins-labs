@@ -1,15 +1,15 @@
 name: CI Pipeline
 # WHEN to run
 on:
-  # push:
-  #   branches: [main]
-  # pull_request:
-  #   branches: [main]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 # WHAT to run
 jobs:
   build:
     # WHERE to run
-    runs-on: actions-runner
+    runs-on: ubuntu-latest
     steps:
     # STEP 1: Checkout code
     - uses: actions/checkout@v4
